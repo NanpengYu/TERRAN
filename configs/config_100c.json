@@ -1,0 +1,64 @@
+{
+    "general": {
+        "customer_size": 100,
+        "rs_size": 20,
+        "types_ratios_R_C_RC": [0.3, 0.3, 0.4],
+        "x_range": [0, 100],
+        "y_range": [0, 100],
+        "pos_scale": 100,
+        "velocity": 1,
+        "demand_range": [1, 50],
+        "energy_consumption": 1.0,
+        "time_window_ratio_list": [0.25, 0.5, 0.75, 1.0],
+        "time_window_ratio_dist": [1,1,1,4],
+        "depot_based_ratio":0.2,
+        "rs_based_type_ratio":0.2,
+        "rs_limit":20
+    },
+    "parameters_by_type": {
+        "C1": {
+            "service_time": 90,
+            "inverse_charging_rate": 3.39,
+            "battery_capacity": 79.69,
+            "demand_capacity": 200,
+            "max_route_time": 1236
+        },
+        "C2": {
+            "service_time": 90,
+            "inverse_charging_rate": 2.28,
+            "battery_capacity": 118.31,
+            "demand_capacity": 700,
+            "max_route_time": 3390
+        },
+        "RC1": {
+            "service_time": 10,
+            "inverse_charging_rate": 0.38,
+            "battery_capacity": 79.69,
+            "demand_capacity": 200,
+            "max_route_time": 240,
+            "mix_random_ratio": 0.3
+        },
+        "RC2": {
+            "service_time": 10,
+            "inverse_charging_rate": 0.11,
+            "battery_capacity": 273.13,
+            "demand_capacity": 1000,
+            "max_route_time": 960,
+            "mix_random_ratio": 0.3
+        },
+        "R1": {
+            "service_time": 10,
+            "inverse_charging_rate": 0.48,
+            "battery_capacity": 62.14,
+            "demand_capacity": 200,
+            "max_route_time": 230
+        },
+        "R2": {
+            "service_time": 10,
+            "inverse_charging_rate": 0.12,
+            "battery_capacity": 247.66,
+            "demand_capacity": 1000,
+            "max_route_time": 1000
+        }
+    }
+}
